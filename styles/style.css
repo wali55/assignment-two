@@ -1,5 +1,5 @@
 /* font */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
 /* general styles */
 body{
@@ -77,4 +77,87 @@ nav{
 }
 .journey-img{
     margin-left: 133px;
+}
+
+/* logos */
+.logos-section{
+    width: 1110px;
+    height: 40px;
+    margin: 69px auto;
+    margin-bottom: 100px;
+    padding: 35px 62px;
+    border-top: 1px solid rgba(170, 170, 170, 0.217);
+    border-bottom: 1px solid rgba(170, 170, 170, 0.217);
+
+}
+.logos-section img{
+    margin-left: 61px;
+}
+
+/* blogs section */
+
+.blogs-section h2{
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+  
+}
+.blogs{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+    width: 1048px;
+    margin: 7px auto 0;
+}
+.blog{
+    width: 329px;
+    height: 476px;
+    box-shadow: 5px 5px 5px 5px rgba(128, 128, 128, 0.227);
+    border-radius: 5px;
+}
+.blog-img{
+    margin: 17px 15px 0 14px;
+}
+.blog-content{
+    margin-left: 14px;
+}
+.blog-title{
+    color: #18191F;
+    font-size: 28px;
+    font-weight: 500;
+    margin: 16px 0 6px 0;
+}
+.blog-price{
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+}
+.blog-rating{
+    font-size: 14px;
+  
+}
+.rating-number{
+    margin-left: 8px;
+    color: #5E6366;
+}
+.fa-star, .fa-star-half-stroke{
+    color: #FB8200;
+}
+.blog p{
+    color: #787885;
+    font-size: 14px;
+    margin-top: 0;
+}
+.blog-btn{
+    display: inline-block;
+    position: absolute;
+    bottom: -80px;
+    right: 0;
+    color: rgba(224, 44, 109, 0.87);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
 }
