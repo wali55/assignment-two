@@ -1,0 +1,62 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* general styles */
+body{
+    font-family: 'Poppins', sans-serif;
+    color: #3A3A3A;
+    margin: 0;
+}
+
+/* nevigation */
+.nav-container{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 63px;
+}
+nav{
+    
+    display: flex;
+    justify-content: space-between; 
+}
+.logo h3{
+    font-size: 24px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+.menu-item ul{
+    display: flex;
+}
+.menu-item ul li{
+    list-style: none;
+}
+.menu-item ul li a{
+    text-decoration: none;
+    color: #3A3A3A;
+    margin-left: 34px;
+    font-size: 16px;
+}
+.nav-icon{
+    margin-left: 34px;
+}
+
+/* journey section */
+.journey-content h1{
+    font-size: 52px;
+}
+.journey-content p{
+    font-size: 16px;
+}
+.link-btn{
+    font-size: 16px;
+    text-decoration: none;
+    background-color: #E02C6D;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 41px;
+}
+.fa-arrow-right{
+    margin-left: 8px;
+}
