@@ -43,13 +43,28 @@ nav{
 }
 
 /* journey section */
+.journey-container{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.journey-section{
+    display: flex;
+}
+.journey-content{
+    width: 582px;
+    height: 270px;
+}
 .journey-content h1{
     font-size: 52px;
+    margin-bottom: 0;
 }
 .journey-content p{
     font-size: 16px;
+    margin-bottom: 16px;
 }
 .link-btn{
+    display: inline-block;
     font-size: 16px;
     text-decoration: none;
     background-color: #E02C6D;
@@ -59,4 +74,7 @@ nav{
 }
 .fa-arrow-right{
     margin-left: 8px;
+}
+.journey-img{
+    margin-left: 133px;
 }
