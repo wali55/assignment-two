@@ -14,6 +14,9 @@ body{
     margin: 0 auto;
     margin-top: 63px;
 }
+.menu-bar{
+    display: none;
+}
 nav{
     
     display: flex;
@@ -226,4 +229,153 @@ footer{
     display: flex;
     justify-content: space-between;
     font-size: 1.4em;
+}
+
+/* mobile version */
+@media screen and (max-width: 688px) {
+    .blogs{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    /* .blog{
+        width: 100%;
+        margin: 30px auto;
+    } */
+    nav{
+        align-items: center;
+        margin: 0 10px;
+    }
+    .nav-container{
+        width: 100%;
+        margin-top: 0;
+    }
+    .fa-cart-shopping{
+        margin-left: 0;
+    }
+    .fa-magnifying-glass{
+        display: none;
+    }
+    .menu-item{
+        display: none;
+    }
+    .menu-bar{
+        display: block;
+    }
+    .logos-section{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        border: none;
+        padding: 0;
+        justify-content: center;
+    }
+    .logos-section img{
+        margin: 15px 15px;
+    }
+    .journey-section{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0;
+    }
+    .journey-content{
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 100px;
+        padding: 5px;
+    }
+    .journey-img{
+        margin: 80px 20px 0 20px;
+        display: flex;
+        justify-content: center;
+       
+    }
+    footer{
+        width: 100%;
+    }
+    .feature-section{
+        width: 100%;
+        flex-direction: column;
+    }
+    .feature-content{     
+        margin-left: 0;
+        padding: 5px;
+    }
+    
+}
+
+/* tablet view */
+@media screen and (min-width: 689px) and (max-width: 991px){
+    .blogs{
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+    }
+    /* .blog{
+        width: 100%;
+        margin: 30px auto;
+    } */
+    nav{
+        align-items: center;
+        margin: 0 10px;
+    }
+    .nav-container{
+        width: 100%;
+        margin-top: 0;
+    }
+    .fa-cart-shopping{
+        margin-left: 0;
+    }
+    .fa-magnifying-glass{
+        display: none;
+    }
+    .menu-item{
+        display: none;
+    }
+    .menu-bar{
+        display: block;
+    }
+    .logos-section{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        border: none;
+        padding: 0;
+        justify-content: center;
+    }
+    .logos-section img{
+        margin: 15px 15px;
+    }
+    .journey-section{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0;
+    }
+    .journey-content{
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 100px;
+        padding: 5px;
+    }
+    .journey-img{
+        margin: 80px 20px 0 20px;
+        display: flex;
+        justify-content: center;
+       
+    }
+    footer{
+        width: 100%;
+    }
+    .feature-section{
+        width: 100%;
+        flex-direction: column;
+    }
+    .feature-content{     
+        margin-left: 0;
+        padding: 5px;
+    }
+    
 }
